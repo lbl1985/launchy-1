@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -105,7 +105,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>"..\..\src";"D:\dev\qt540\5.4\msvc2013_64\include";"D:\dev\qt540\5.4\msvc2013_64\include\QtWidgets";"D:\dev\qt540\5.4\msvc2013_64\include\QtWinExtras";"D:\dev\qt540\5.4\msvc2013_64\include\QtGui";"D:\dev\qt540\5.4\msvc2013_64\include\QtANGLE";"D:\dev\qt540\5.4\msvc2013_64\include\QtCore";"release";".";D:\dev\qt540\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\src";"c:\Qt\5.4\msvc2013_64\include";"c:\Qt\5.4\msvc2013_64\include\QtWidgets";"c:\Qt\5.4\msvc2013_64\include\QtWinExtras";"c:\Qt\5.4\msvc2013_64\include\QtGui";"c:\Qt\5.4\msvc2013_64\include\QtANGLE";"c:\Qt\5.4\msvc2013_64\include\QtCore";"release";".";c:\Qt\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zm200 -Zc:strictStrings -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>release\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
@@ -122,8 +122,8 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Widgets.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5WinExtras.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Gui.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\dev\qt540\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Widgets.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5WinExtras.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Gui.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\Qt\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
@@ -145,7 +145,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>"..\..\src";"D:\dev\qt540\5.4\msvc2013_64\include";"D:\dev\qt540\5.4\msvc2013_64\include\QtWidgets";"D:\dev\qt540\5.4\msvc2013_64\include\QtWinExtras";"D:\dev\qt540\5.4\msvc2013_64\include\QtGui";"D:\dev\qt540\5.4\msvc2013_64\include\QtANGLE";"D:\dev\qt540\5.4\msvc2013_64\include\QtCore";"release";".";D:\dev\qt540\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\src";"c:\Qt\5.4\msvc2013_64\include";"c:\Qt\5.4\msvc2013_64\include\QtWidgets";"c:\Qt\5.4\msvc2013_64\include\QtWinExtras";"c:\Qt\5.4\msvc2013_64\include\QtGui";"c:\Qt\5.4\msvc2013_64\include\QtANGLE";"c:\Qt\5.4\msvc2013_64\include\QtCore";"release";".";c:\Qt\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zm200 -Zc:strictStrings -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>release\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
@@ -162,8 +162,8 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Widgets.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5WinExtras.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Gui.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\dev\qt540\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Widgets.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5WinExtras.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Gui.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\Qt\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
@@ -185,7 +185,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>"..\..\src";"D:\dev\qt540\5.4\msvc2013_64\include";"D:\dev\qt540\5.4\msvc2013_64\include\QtWidgets";"D:\dev\qt540\5.4\msvc2013_64\include\QtWinExtras";"D:\dev\qt540\5.4\msvc2013_64\include\QtGui";"D:\dev\qt540\5.4\msvc2013_64\include\QtANGLE";"D:\dev\qt540\5.4\msvc2013_64\include\QtCore";"debug";".";D:\dev\qt540\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\src";"c:\Qt\5.4\msvc2013_64\include";"c:\Qt\5.4\msvc2013_64\include\QtWidgets";"c:\Qt\5.4\msvc2013_64\include\QtWinExtras";"c:\Qt\5.4\msvc2013_64\include\QtGui";"c:\Qt\5.4\msvc2013_64\include\QtANGLE";"c:\Qt\5.4\msvc2013_64\include\QtCore";"debug";".";c:\Qt\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>debug\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
@@ -202,8 +202,8 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Widgetsd.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5WinExtrasd.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Guid.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\dev\qt540\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Widgetsd.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5WinExtrasd.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Guid.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\Qt\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
@@ -225,7 +225,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>"..\..\src";"D:\dev\qt540\5.4\msvc2013_64\include";"D:\dev\qt540\5.4\msvc2013_64\include\QtWidgets";"D:\dev\qt540\5.4\msvc2013_64\include\QtWinExtras";"D:\dev\qt540\5.4\msvc2013_64\include\QtGui";"D:\dev\qt540\5.4\msvc2013_64\include\QtANGLE";"D:\dev\qt540\5.4\msvc2013_64\include\QtCore";"debug";".";D:\dev\qt540\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\src";"c:\Qt\5.4\msvc2013_64\include";"c:\Qt\5.4\msvc2013_64\include\QtWidgets";"c:\Qt\5.4\msvc2013_64\include\QtWinExtras";"c:\Qt\5.4\msvc2013_64\include\QtGui";"c:\Qt\5.4\msvc2013_64\include\QtANGLE";"c:\Qt\5.4\msvc2013_64\include\QtCore";"debug";".";c:\Qt\5.4\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>debug\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
@@ -242,8 +242,8 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Widgetsd.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5WinExtrasd.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Guid.lib;D:\dev\qt540\5.4\msvc2013_64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\dev\qt540\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>shell32.lib;user32.lib;Gdi32.lib;comctl32.lib;Advapi32.lib;ole32.lib;shlwapi.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Widgetsd.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5WinExtrasd.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Guid.lib;c:\Qt\5.4\msvc2013_64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\Qt\5.4\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
@@ -279,12 +279,12 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">controly.h;%(AdditionalInputs)</AdditionalInputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore controly.h -o release\moc_controly.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore controly.h -o release\moc_controly.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore controly.h -o release\moc_controly.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore controly.h -o release\moc_controly.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC controly.h</Message>
@@ -295,12 +295,12 @@ endlocal</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">controly.h;%(AdditionalInputs)</AdditionalInputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore controly.h -o debug\moc_controly.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore controly.h -o debug\moc_controly.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore controly.h -o debug\moc_controly.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore controly.h -o debug\moc_controly.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC controly.h</Message>
@@ -317,12 +317,12 @@ endlocal</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gui.h;%(AdditionalInputs)</AdditionalInputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore gui.h -o release\moc_gui.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore gui.h -o release\moc_gui.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore gui.h -o release\moc_gui.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore gui.h -o release\moc_gui.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC gui.h</Message>
@@ -333,12 +333,12 @@ endlocal</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gui.h;%(AdditionalInputs)</AdditionalInputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore gui.h -o debug\moc_gui.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore gui.h -o debug\moc_gui.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -ID:/dev/qt540/5.4/msvc2013_64/mkspecs/win32-msvc2013 -ID:/dev/github/launchy/Launchy_QT/plugins/controly -ID:/dev/github/launchy/Launchy_QT/src -ID:/dev/qt540/5.4/msvc2013_64/include -ID:/dev/qt540/5.4/msvc2013_64/include/QtWidgets -ID:/dev/qt540/5.4/msvc2013_64/include/QtWinExtras -ID:/dev/qt540/5.4/msvc2013_64/include/QtGui -ID:/dev/qt540/5.4/msvc2013_64/include/QtANGLE -ID:/dev/qt540/5.4/msvc2013_64/include/QtCore gui.h -o debug\moc_gui.cpp
+c:\Qt\5.4\msvc2013_64\bin\moc.exe  -DUNICODE -DWIN32 -DWITH_GUI -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_WINEXTRAS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -Ic:/Qt/5.4/msvc2013_64/mkspecs/win32-msvc2013 -Ic:/Experiment/launchy-1/Launchy_QT/plugins/controly -Ic:/Experiment/launchy-1/Launchy_QT/src -Ic:/Qt/5.4/msvc2013_64/include -Ic:/Qt/5.4/msvc2013_64/include/QtWidgets -Ic:/Qt/5.4/msvc2013_64/include/QtWinExtras -Ic:/Qt/5.4/msvc2013_64/include/QtGui -Ic:/Qt/5.4/msvc2013_64/include/QtANGLE -Ic:/Qt/5.4/msvc2013_64/include/QtCore gui.h -o debug\moc_gui.cpp
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC gui.h</Message>
@@ -375,12 +375,12 @@ endlocal</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dlg.ui;%(AdditionalInputs)</AdditionalInputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
+c:\Qt\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
+c:\Qt\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC dlg.ui</Message>
@@ -391,12 +391,12 @@ endlocal</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dlg.ui;%(AdditionalInputs)</AdditionalInputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
+c:\Qt\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 if errorlevel 1 goto VCEnd
-D:\dev\qt540\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
+c:\Qt\5.4\msvc2013_64\bin\uic.exe dlg.ui -o ui_dlg.h
 if errorlevel 1 goto VCEnd
 endlocal</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC dlg.ui</Message>
